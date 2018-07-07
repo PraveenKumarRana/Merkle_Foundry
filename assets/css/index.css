@@ -1,0 +1,66 @@
+html,body{
+    height: 100%;
+}
+.page-partition{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 500px;
+}
+
+.input-box{
+    background: skyblue;
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 10px;
+}
+
+#func:active{
+    font-size: 15px;
+}
+
+#func{
+    padding: 10px;
+}
+.result-box{
+    background: gainsboro;
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding:10px;
+}
+
+/* Drag bucket */
+.drag-hold{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;   
+}
+.drag{
+    width: 23%;
+    min-height: 150px;
+    margin: 2%;
+    background: white;
+}
+.inner-drag{
+    width: 95%;
+    height: 95%;
+    margin: 2.5%;
+    background: yellow;
+    padding: 5px;
+}
+
+label{
+    padding: 10px;
+}
+
+/* Result display color */
+span{
+    color: green;
+}
+
+button{
+    background: black;
+    color: white;
+}
